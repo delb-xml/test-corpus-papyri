@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv133399">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kreditvertrag</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">133399</idno>
+            <idno type="TM">133399</idno>
+            <idno type="ddb-perseus-style">;28;16873</idno>
+            <idno type="ddb-filename">sb.28.16873</idno>
+            <idno type="ddb-hybrid">sb;28;16873</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Berol. Inv. Nr. 25628</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites, Ägypten</origPlace>
+                     <origDate notBefore="0592-11-27" notAfter="0592-12-26">27. Nov. - 26. Dez. 592</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Aur. Pamutios mit Fl. Strategios</term>
+               <term n="3">Darlehen</term>
+               <term n="4">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-09-02T09:21:20-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Bereit.</change>
+         <change when="2024-09-02T09:17:31-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Verweis zu Z. 3 konkretisieren, um Herkunft ergänzen und standardisieren.</change>
+         <change when="2024-08-16T09:12:02-04:00"
+                 who="http://papyri.info/editor/users/Julius%20Weinlein">Submit - Korrektur Z.3: P.Oxy. 83 5398 introd. (p. 192 n.1)
+
+Änderung Datierung und Herkunft (sicher)
+
+
+
+</change>
+         <change who="HGV" when="2016-06-09">Record last modified</change>
+         <change when="2016-06-15" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 7-8 vgl. ZPE 154 (2005) 203, Anm. 1. Zur Herkunft und Z. 3 vgl. P.Oxy. LXXXIII 5398 Einl., S. 192, Anm. 1.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">28</biblScope>
+                  <biblScope n="2" type="numbers">16873</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">APF 49, 2003, Tafel VI und VII</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/15907/"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

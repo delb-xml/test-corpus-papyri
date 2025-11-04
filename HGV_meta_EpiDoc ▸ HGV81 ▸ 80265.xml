@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv80265">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mumientäfelchen</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">80265</idno>
+            <idno type="TM">80265</idno>
+            <idno type="ddb-perseus-style">0003;;2017</idno>
+            <idno type="ddb-filename">sb.30.17444_29</idno>
+            <idno type="ddb-hybrid">sb;30;17444_29</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>IFAO</collection>
+                  <idno type="invNo">T. 101</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Holz</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Nesos Apollinariados (Panopolites)</origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="low">II - III</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1" type="ancient">Nesos Apollinariados</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2719 https://pleiades.stoa.org/places/756614">Panopolites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Mumienetikett</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-01-14T15:29:22-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2025-01-13T13:45:17-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good.</change>
+         <change when="2025-01-13T08:38:47-05:00"
+                 who="http://papyri.info/editor/users/AnnaArpaia">Submit - updated according to SB 30 17444 Nr.29.
+
+note: no TMGeo ID for Nesos Apollinariados (nomos Panopolites).</change>
+         <change who="HGV" when="2003-09-12">Record created</change>
+         <change who="HGV" when="2009-06-22">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">30</biblScope>
+                  <biblScope n="2" type="numbers">17444</biblScope>
+                  <biblScope n="3" type="number">Nr. 29</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">BIFAO 74, 1974, Pl. XVI, B</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">C.Étiq. Mom. 2017</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>
